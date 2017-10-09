@@ -5,3 +5,9 @@ c:\users\justin\documents\visual studio 2017\Projects\Grades\Grades\obj\Debug\Gr
 c:\users\justin\documents\visual studio 2017\Projects\Grades\Grades\obj\Debug\Grades.csproj.CoreCompileInputs.cache
 c:\users\justin\documents\visual studio 2017\Projects\Grades\Grades\obj\Debug\Grades.exe
 c:\users\justin\documents\visual studio 2017\Projects\Grades\Grades\obj\Debug\Grades.pdb
+C:\git\Grades\Grades\bin\Debug\Grades.exe.config
+C:\git\Grades\Grades\bin\Debug\Grades.exe
+C:\git\Grades\Grades\bin\Debug\Grades.pdb
+C:\git\Grades\Grades\obj\Debug\Grades.csprojResolveAssemblyReference.cache
+C:\git\Grades\Grades\obj\Debug\Grades.exe
+C:\git\Grades\Grades\obj\Debug\Grades.pdb

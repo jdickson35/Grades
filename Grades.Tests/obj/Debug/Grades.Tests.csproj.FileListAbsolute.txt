@@ -14,3 +14,18 @@ c:\Users\Justin\documents\visual studio 2017\Projects\Grades\Grades.Tests\obj\De
 c:\Users\Justin\documents\visual studio 2017\Projects\Grades\Grades.Tests\bin\Debug\Grades.exe
 c:\Users\Justin\documents\visual studio 2017\Projects\Grades\Grades.Tests\bin\Debug\Grades.pdb
 c:\Users\Justin\documents\visual studio 2017\Projects\Grades\Grades.Tests\bin\Debug\Grades.exe.config
+C:\git\Grades\Grades.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\git\Grades\Grades.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\git\Grades\Grades.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\git\Grades\Grades.Tests\bin\Debug\Grades.Tests.dll
+C:\git\Grades\Grades.Tests\bin\Debug\Grades.Tests.pdb
+C:\git\Grades\Grades.Tests\bin\Debug\Grades.exe
+C:\git\Grades\Grades.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.dll
+C:\git\Grades\Grades.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll
+C:\git\Grades\Grades.Tests\bin\Debug\Grades.pdb
+C:\git\Grades\Grades.Tests\bin\Debug\Grades.exe.config
+C:\git\Grades\Grades.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
+C:\git\Grades\Grades.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.xml
+C:\git\Grades\Grades.Tests\obj\Debug\Grades.Tests.csprojResolveAssemblyReference.cache
+C:\git\Grades\Grades.Tests\obj\Debug\Grades.Tests.dll
+C:\git\Grades\Grades.Tests\obj\Debug\Grades.Tests.pdb
