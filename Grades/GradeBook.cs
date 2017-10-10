@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -21,7 +22,7 @@ namespace Grades
 
 
             float sum = 0;
-            foreach(float grade in grades)
+            foreach (float grade in grades)
             {
                 stats.HighestGrade = Math.Max(grade, stats.HighestGrade);
                 stats.LowestGrade = Math.Min(grade, stats.LowestGrade);
@@ -30,6 +31,14 @@ namespace Grades
             stats.AverageGrade = sum / grades.Count;
 
             return stats;
+        }
+
+        internal void WriteGrades(TextWriter destination)
+        {
+            for (int i = grades.Count; i > 0; i--)
+            {
+                destination.WriteLine(grades[i - 1]);
+            }
         }
 
         public void AddGrade(float grade)
@@ -45,18 +54,21 @@ namespace Grades
             }
             set
             {
-                if (!String.IsNullOrEmpty(value))
+                if (String.IsNullOrEmpty(value))
                 {
-                    if(_name != value)
-                    {
-                        NameChangedEventArgs args = new NameChangedEventArgs();
-                        args.ExistingName = _name;
-                        args.NewName = value;
-
-                        NameChanged(this, args);
-                    }
-                    _name = value;
+                    throw new ArgumentException("Name cannot be null or empty");
                 }
+
+
+                if (_name != value)
+                {
+                    NameChangedEventArgs args = new NameChangedEventArgs();
+                    args.ExistingName = _name;
+                    args.NewName = value;
+
+                    NameChanged(this, args);
+                }
+                _name = value;
             }
         }
         public event NameChangedDelegate NameChanged;
