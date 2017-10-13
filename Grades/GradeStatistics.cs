@@ -47,7 +47,7 @@ namespace Grades
             {
                 string result;
                 double RoundAverageGrade = Math.Round(AverageGrade);
-                Console.WriteLine(RoundAverageGrade);
+                //Console.WriteLine(RoundAverageGrade);
                 if (RoundAverageGrade >= 90)
                 {
                     result = "A";
